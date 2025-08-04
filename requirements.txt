@@ -1,9 +1,6 @@
-geopandas
 streamlit
-geoviews
-holoviews
-fpdf
-io
-ee
-geemap
+geopandas
 pandas
+geemap
+earthengine-api
+fpdf
