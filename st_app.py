@@ -1,13 +1,10 @@
 import geopandas as gpd
 import streamlit as st
-import geoviews as gv
-import holoviews as hv
 from fpdf import FPDF
 from io import BytesIO
 import ee
 import geemap
 import pandas as pd
-gv.extension('matplotlib', 'bokeh')
 
 st.set_page_config(
     page_title="Deforestation analyser",
@@ -147,5 +144,6 @@ if farm_id:
     
     except Exception as e:    
         st.error(f"Error loading data: {e}")
+
 
 
