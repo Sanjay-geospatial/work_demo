@@ -1,0 +1,9 @@
+geopandas
+streamlit
+geoviews
+holoviews
+fpdf
+io
+ee
+geemap
+pandas
